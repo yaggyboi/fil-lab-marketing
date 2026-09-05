@@ -1,0 +1,38 @@
+name: Akademik Burçlar karuselini yayınla
+
+on:
+  schedule:
+    - cron: '30 8 7 9 *'
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Elle yayınlamak için YAYINLA yaz'
+        required: true
+        default: 'HAYIR'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: fil-lab-akademik-burclar-2026-09-07
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.event_name == 'schedule' || inputs.confirm == 'YAYINLA'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: İçerikleri al
+        uses: actions/checkout@v4
+
+      - name: Node.js hazırla
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Instagram karuselini yayınla
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: node automation/publish-instagram.mjs instagram/2026-09-07-akademik-burclar/YAYIN_PLANI.json
