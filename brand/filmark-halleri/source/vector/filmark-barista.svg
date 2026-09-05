@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="680" viewBox="0 0 760 680">
+    <g id="barista-accessories">
+      <path d="M230 474C244 446 275 430 312 430H431C470 430 501 448 514 480L549 641H194Z" fill="#141816"/>
+      <path d="M267 439L310 493M473 439L431 493" fill="none" stroke="#F1EDE4" stroke-width="14" stroke-linecap="round"/>
+      <path d="M322 550H420V600C420 613 410 623 397 623H345C332 623 322 613 322 600Z" fill="none" stroke="#1DBA8B" stroke-width="9"/>
+      <path d="M565 493H642V566C642 586 626 602 606 602H601C581 602 565 586 565 566Z" fill="#F1EDE4" stroke="#141816" stroke-width="9"/>
+      <path d="M642 515H657C677 515 686 530 686 546C686 565 673 577 653 577H642" fill="none" stroke="#141816" stroke-width="9" stroke-linecap="round"/>
+      <path d="M583 463C568 442 594 430 580 408M617 463C602 442 628 430 614 408" fill="none" stroke="#0B6E52" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(93 170)">
+    <defs>
+      <mask id="barista-eye" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="574" height="318">
+        <rect x="0" y="0" width="574" height="318" fill="white"/>
+        <circle cx="362.8535" cy="177.51068" r="14.573" fill="black"/>
+      </mask>
+    </defs>
+    <g mask="url(#barista-eye)">
+      <path transform="matrix(1,0,0,-1,209.5484,319.1825)" d="M0 0C-47.329 0-94.659 .079-141.987-.109-147.361-.13-149.127 .765-148.932 6.685-145.396 113.504-67.17 202.038 39.933 220.075 163.383 240.865 281.376 157.595 301.093 35.814 302.718 25.78 303.618 15.721 303.844 5.561 303.937 1.357 302.908-.302 298.314-.099 290.255 .256 282.15 .32 274.1-.118 269.081-.391 267.717 1.42 267.155 6.075 264.596 27.269 258.701 47.466 247.117 65.766 244.03 70.642 240.486 75.17 236.316 79.23 217.989 97.077 195.294 96.394 178.151 77.297 162.984 60.401 155.981 39.881 151.496 18.292 151.093 16.351 150.7 14.406 150.384 12.45 148.373 .001 148.381 0 135.931 0 90.62 0 45.31 0 0 0" fill="#0B6E52"/>
+    </g></g>
+  </svg>
