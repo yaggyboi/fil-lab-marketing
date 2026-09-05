@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350"><rect width="1080" height="1350" fill="#0A0C0B"/>
+    <text x="72" y="84" text-anchor="start" fill="#1DBA8B" font-family="'Cascadia Mono', 'SFMono-Regular', monospace" font-size="18" font-weight="800" letter-spacing="2.2">AKADEMİK GÖKYÜZÜ</text>
+    <svg x="890" y="54" width="118" height="64.9" viewBox="0 40 574 280"><path transform="matrix(1,0,0,-1,209.5484,319.1825)" d="M0 0C-47.329 0-94.659 .079-141.987-.109-147.361-.13-149.127 .765-148.932 6.685-145.396 113.504-67.17 202.038 39.933 220.075 163.383 240.865 281.376 157.595 301.093 35.814 302.718 25.78 303.618 15.721 303.844 5.561 303.937 1.357 302.908-.302 298.314-.099 290.255 .256 282.15 .32 274.1-.118 269.081-.391 267.717 1.42 267.155 6.075 264.596 27.269 258.701 47.466 247.117 65.766 244.03 70.642 240.486 75.17 236.316 79.23 217.989 97.077 195.294 96.394 178.151 77.297 162.984 60.401 155.981 39.881 151.496 18.292 151.093 16.351 150.7 14.406 150.384 12.45 148.373 .001 148.381 0 135.931 0 90.62 0 45.31 0 0 0" fill="#F1EDE4"/><path transform="matrix(1,0,0,-1,377.4265,177.51068)" d="M0 0C0-8.048-6.524-14.573-14.573-14.573-22.621-14.573-29.145-8.048-29.145 0-29.145 8.048-22.621 14.573-14.573 14.573-6.524 14.573 0 8.048 0 0" fill="#0A0C0B"/></svg>
+    
+    <text x="72" y="168" text-anchor="start" fill="#1DBA8B" font-family="'Cascadia Mono', 'SFMono-Regular', monospace" font-size="18" font-weight="800" letter-spacing="2.2">11</text>
+    <text x="72" y="259" fill="#F1EDE4" font-family="'Segoe UI', Arial, sans-serif" font-size="69" font-weight="820" letter-spacing="-2.5">KOVA</text>
+    <circle cx="926" cy="206" r="34" fill="none" stroke="#27322E" stroke-width="3"/><circle cx="926" cy="206" r="8" fill="#1DBA8B"/>
+    <text x="76" y="337" fill="#98A09B" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="610" letter-spacing="-0.5"><tspan x="76" dy="0">Herkes aynı kaynaktayken 2008’de yüklenmiş,</tspan><tspan x="76" dy="48">14 kez indirilmiş bir PDF bulacaksın.</tspan><tspan x="76" dy="48">“Asıl kaynak bu.”</tspan></text>
+  
+    <path d="M72 651H1008" stroke="#27322E" stroke-width="3"/>
+    
+    <text x="72" y="742" text-anchor="start" fill="#1DBA8B" font-family="'Cascadia Mono', 'SFMono-Regular', monospace" font-size="18" font-weight="800" letter-spacing="2.2">12</text>
+    <text x="72" y="833" fill="#F1EDE4" font-family="'Segoe UI', Arial, sans-serif" font-size="69" font-weight="820" letter-spacing="-2.5">BALIK</text>
+    <path d="M884 780H968M926 738V822" stroke="#27322E" stroke-width="3" stroke-linecap="round"/><circle cx="926" cy="780" r="11" fill="#1DBA8B"/>
+    <text x="76" y="911" fill="#98A09B" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="610" letter-spacing="-0.5"><tspan x="76" dy="0">Bir paragraf okuyup zihninde mezun olacak,</tspan><tspan x="76" dy="48">taşınacak ve hayatını kuracaksın.</tspan><tspan x="76" dy="48">Kitap aynı paragrafta kalacak.</tspan></text>
+  
+    <path d="M72 1234H1008" stroke="#27322E" stroke-width="2"/><text x="72" y="1286" fill="#98A09B" font-family="'Cascadia Mono', 'SFMono-Regular', monospace" font-size="18" font-weight="750" letter-spacing="1.4">AKADEMİK GÖKYÜZÜ · 7—13 EYLÜL</text><text x="1008" y="1286" text-anchor="end" fill="#98A09B" font-family="'Cascadia Mono', 'SFMono-Regular', monospace" font-size="18" font-weight="750">07 / 08</text>
+  </svg>
