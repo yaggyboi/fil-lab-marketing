@@ -1,0 +1,139 @@
+{
+  "account": "fillaborg",
+  "timezone": "Europe/Istanbul",
+  "week": "2026-09-07/2026-09-13",
+  "items": [
+    {
+      "id": "eylul-07-story-01-burclar",
+      "title": "Pazartesi · Burç Story",
+      "type": "story",
+      "approved": true,
+      "at": "2026-09-07T13:09:30.856Z",
+      "until": "2026-09-07T20:00:00+03:00",
+      "dependsOn": "eylul-07-akademik-burclar",
+      "url": "https://raw.githubusercontent.com/yaggyboi/fil-lab-marketing/codex/instagram-yayin-duzeltme/instagram/2026-09-07_13-onayli-yayin/gunler/07-pazartesi/story/01-burclar.jpg",
+      "caption": "",
+      "altText": "HAFTANIN AKADEMİK BURÇLARI Burcun mu, çalışma arkadaşın mı? Bazı yorumlar fazla tanıdık. 12 BURÇ · BU HAFTANIN GÖNDERİSİNDE"
+    },
+    {
+      "id": "eylul-08-story-01-sana-da-aldim",
+      "title": "Salı · Günün sözü",
+      "type": "story",
+      "approved": true,
+      "at": "2026-09-08T13:00:00+03:00",
+      "until": "2026-09-08T15:00:00+03:00",
+      "dependsOn": null,
+      "url": "https://raw.githubusercontent.com/yaggyboi/fil-lab-marketing/codex/instagram-yayin-duzeltme/instagram/2026-09-07_13-onayli-yayin/gunler/08-sali/story/01-sana-da-aldim.jpg",
+      "caption": "",
+      "altText": "GÜNÜN SÖZÜ “Sana da aldım.” Kısa cümle, iyi his. BAZEN BU KADAR."
+    },
+    {
+      "id": "eylul-09-story-01-kahve-kamerasi",
+      "title": "Çarşamba · Kahve kamerası 1/2",
+      "type": "story",
+      "approved": true,
+      "at": "2026-09-09T13:00:00+03:00",
+      "until": "2026-09-09T15:00:00+03:00",
+      "dependsOn": null,
+      "url": "https://raw.githubusercontent.com/yaggyboi/fil-lab-marketing/codex/instagram-yayin-duzeltme/instagram/2026-09-07_13-onayli-yayin/gunler/09-carsamba/story/01-kahve-kamerasi.jpg",
+      "caption": "",
+      "altText": "KÜÇÜK BİR BİLGİ · 01/02 Dünyanın ilk webcam’i bir kahve demliğini izliyordu. HİKÂYESİ SONRAKİ KAREDE →"
+    },
+    {
+      "id": "eylul-09-story-02-kahve-kamerasi",
+      "title": "Çarşamba · Kahve kamerası 2/2",
+      "type": "story",
+      "approved": true,
+      "at": "2026-09-09T13:00:00+03:00",
+      "until": "2026-09-09T15:00:00+03:00",
+      "dependsOn": "eylul-09-story-01-kahve-kamerasi",
+      "url": "https://raw.githubusercontent.com/yaggyboi/fil-lab-marketing/codex/instagram-yayin-duzeltme/instagram/2026-09-07_13-onayli-yayin/gunler/09-carsamba/story/02-kahve-kamerasi.jpg",
+      "caption": "",
+      "altText": "KÜÇÜK BİR BİLGİ · 02/02 1991 Cambridge’de araştırmacılar, kahve demliğini bilgisayarlarından izlemek için bir sistem kurdu. 1993 Sistem web’e bağlandı. İlk webcam, kahvenin başındaydı. Önce kahve var mı diye baktık. KAYNAK: CAMBRIDGE · TROJAN ROOM"
+    },
+    {
+      "id": "eylul-10-gonderi-01-bir-yudum",
+      "title": "Perşembe · Bana fark etmez",
+      "type": "feed",
+      "approved": true,
+      "at": "2026-09-10T12:30:00+03:00",
+      "until": "2026-09-10T15:00:00+03:00",
+      "dependsOn": null,
+      "url": "https://raw.githubusercontent.com/yaggyboi/fil-lab-marketing/codex/instagram-yayin-duzeltme/instagram/2026-09-07_13-onayli-yayin/gunler/10-persembe/gonderi/01-bir-yudum.jpg",
+      "caption": "“Bana fark etmez.”\n\nNe istediğini bilmiyoruz. Ne istemediğini birazdan tek tek öğreneceğiz.",
+      "altText": "GRUPÇA KARAR VERİRKEN “Bana fark etmez.” Ne istediğini bilmiyoruz. Ne istemediğini birazdan tek tek öğreneceğiz. SEÇENEKLER AZALIYOR."
+    },
+    {
+      "id": "eylul-10-story-01-son-yudum",
+      "title": "Perşembe · Bana fark etmez Story",
+      "type": "story",
+      "approved": true,
+      "at": "2026-09-10T13:00:00+03:00",
+      "until": "2026-09-10T15:00:00+03:00",
+      "dependsOn": "eylul-10-gonderi-01-bir-yudum",
+      "url": "https://raw.githubusercontent.com/yaggyboi/fil-lab-marketing/codex/instagram-yayin-duzeltme/instagram/2026-09-07_13-onayli-yayin/gunler/10-persembe/story/01-son-yudum.jpg",
+      "caption": "",
+      "altText": "BUGÜNÜN TESPİTİ “Bana fark etmez” diyen kişi, karar sürecinin en aktif üyesidir. BUGÜNÜN GÖNDERİSİ"
+    },
+    {
+      "id": "eylul-11-story-01-ankara-mevsim",
+      "title": "Cuma · Ankara sorusu",
+      "type": "story",
+      "approved": true,
+      "at": "2026-09-11T13:00:00+03:00",
+      "until": "2026-09-11T15:00:00+03:00",
+      "dependsOn": null,
+      "url": "https://raw.githubusercontent.com/yaggyboi/fil-lab-marketing/codex/instagram-yayin-duzeltme/instagram/2026-09-07_13-onayli-yayin/gunler/11-cuma/story/01-ankara-mevsim.jpg",
+      "caption": "",
+      "altText": "ANKARA’YA BİR SORU Mevsimin değiştiğini ilk nereden anlıyorsun? Sabah serinliğinden mi, çantaya giren hırkadan mı? Seninki ne? Bize yaz. BU STORY’YE YANIT VEREBİLİRSİN."
+    },
+    {
+      "id": "eylul-12-gonderi-01-videoyu-o-izliyor",
+      "title": "Cumartesi · Aynı cep",
+      "type": "feed",
+      "approved": true,
+      "at": "2026-09-12T12:30:00+03:00",
+      "until": "2026-09-12T15:00:00+03:00",
+      "dependsOn": null,
+      "url": "https://raw.githubusercontent.com/yaggyboi/fil-lab-marketing/codex/instagram-yayin-duzeltme/instagram/2026-09-07_13-onayli-yayin/gunler/12-cumartesi/gonderi/01-videoyu-o-izliyor.jpg",
+      "caption": "Aynı cebe tekrar baktım.\n\nİlk aramada benimle iş birliği yapmamış olabilir.",
+      "altText": "KAYIP EŞYA PROTOKOLÜ Aynı cebe tekrar bakıyoruz. İlk aramada bizimle iş birliği yapmamış olabilir. İKİNCİ ARAMA BAŞLADI."
+    },
+    {
+      "id": "eylul-12-story-01-komik-kismi",
+      "title": "Cumartesi · Aynı cep Story",
+      "type": "story",
+      "approved": true,
+      "at": "2026-09-12T13:00:00+03:00",
+      "until": "2026-09-12T15:00:00+03:00",
+      "dependsOn": "eylul-12-gonderi-01-videoyu-o-izliyor",
+      "url": "https://raw.githubusercontent.com/yaggyboi/fil-lab-marketing/codex/instagram-yayin-duzeltme/instagram/2026-09-07_13-onayli-yayin/gunler/12-cumartesi/story/01-komik-kismi.jpg",
+      "caption": "",
+      "altText": "KAYIP EŞYA PROTOKOLÜ Aynı cep. Aynı el. Yeni umut. İKİNCİ KEZ BAKILDI."
+    },
+    {
+      "id": "eylul-13-story-01-mario-tarihte-bugun",
+      "title": "Pazar · Mario 1/2",
+      "type": "story",
+      "approved": true,
+      "at": "2026-09-13T13:00:00+03:00",
+      "until": "2026-09-13T15:00:00+03:00",
+      "dependsOn": null,
+      "url": "https://raw.githubusercontent.com/yaggyboi/fil-lab-marketing/codex/instagram-yayin-duzeltme/instagram/2026-09-07_13-onayli-yayin/gunler/13-pazar/story/01-mario-tarihte-bugun.jpg",
+      "caption": "",
+      "altText": "TARİHTE BUGÜN · 13 EYLÜL 1985 Super Mario Bros. Japonya’da Famicom için yayımlandı. KAYNAK: NINTENDO · OYUN ARŞİVİ"
+    },
+    {
+      "id": "eylul-13-story-02-ilk-oyunun",
+      "title": "Pazar · Oyun sorusu 2/2",
+      "type": "story",
+      "approved": true,
+      "at": "2026-09-13T13:00:00+03:00",
+      "until": "2026-09-13T15:00:00+03:00",
+      "dependsOn": "eylul-13-story-01-mario-tarihte-bugun",
+      "url": "https://raw.githubusercontent.com/yaggyboi/fil-lab-marketing/codex/instagram-yayin-duzeltme/instagram/2026-09-07_13-onayli-yayin/gunler/13-pazar/story/02-ilk-oyunun.jpg",
+      "caption": "",
+      "altText": "BİRAZ GERİ SARALIM İlk oynadığın oyunu hatırlıyor musun? Adını yaz. Aynı yerden başlamış olabiliriz. BU STORY’YE YANIT VEREBİLİRSİN."
+    }
+  ]
+}
