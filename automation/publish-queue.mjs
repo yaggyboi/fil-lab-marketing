@@ -59,8 +59,11 @@ async function main() {
   const account=await graph(ig,{fields:'id,username'});
   if(account.username!=='fillaborg')throw new Error('Hedef hesap uyuşmuyor.');
   let s=await state();
+  if(checkOnly)await save('_connectionCheck',{status:'checked',at:new Date().toISOString(),runId:process.env.GITHUB_RUN_ID||'local'});
+  const issues=[];
   for(const item of queue.items) {
     if(selected && selected!==item.id)continue;
+    try {
     const status=decision(item,s.data[item.id]);
     if(checkOnly){await accessible(item);console.log(`${item.id}: ${status} · görsel erişilebilir`);continue;}
     if(status==='review')throw new Error(`${item.id}: Önceki işlem belirsiz veya yarım; tekrar paylaşım durduruldu.`);
@@ -91,6 +94,12 @@ async function main() {
     record={...record,permalink:verified.permalink,verifiedAt:new Date().toISOString()};
     await save(item.id,record);s.data[item.id]=record;
     console.log(JSON.stringify({id:item.id,mediaId:result.id,permalink:verified.permalink,status:'published'}));
+    } catch(e) {
+      issues.push(`${item.id}: ${e.message}`);
+      console.error(issues.at(-1));
+      // Sonucu belirsiz yayını tekrar etme; bağımsız sonraki günleri engelleme.
+    }
   }
+  if(issues.length)throw new Error(`${issues.length} yayın inceleme gerektiriyor. Başarılı yayınlar tekrar edilmeyecek.`);
 }
 main().catch(e=>{console.error(e.message);process.exitCode=1;});

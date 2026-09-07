@@ -22,6 +22,7 @@ Saatler hedef saatlerdir, en yüksek etkileşim iddiası değildir. GitHub zaman
 - Hazırlama veya paylaşım sırasında kesilen işlem otomatik tekrar basılmaz; inceleme gerektirir.
 - Başarılı medya kimliği, yayın saati ve doğrulama ayrı kaydedilir. Hikâyeler ilgili gönderi doğrulanmadan yayımlanmaz.
 - GitHub ve Meta bağlantıları kontrol kipinde sınanabilir; kontrol kipi hiçbir içerik yayımlamaz.
+- Kontrol kipi kayıt dalına yalnızca bağlantı testi sonucunu yazar; buluttan kayıt yazma yetkisi de doğrulanır. Sorunlu bir yayın diğer günlerin bağımsız içeriklerini durdurmaz.
 - Eski ve reddedilen haftalık tavsiye seti kullanılmaz. Eski yerel otomasyonlar yeniden etkinleştirilmez.
 - Bu dosya tek başına etkin zamanlama kanıtı değildir; kurulum sonrası canlı workflow çalışması ayrıca doğrulanır.
 
