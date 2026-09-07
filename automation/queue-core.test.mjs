@@ -1,0 +1,11 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {decision} from './queue-core.mjs';
+const item={approved:true,at:'2026-09-08T13:00:00+03:00',until:'2026-09-08T15:00:00+03:00'};
+test('saati gelmeden paylaşmaz',()=>assert.equal(decision(item,null,Date.parse('2026-09-08T12:59:00+03:00')),'early'));
+test('onaysız içeriği atlar',()=>assert.equal(decision({...item,approved:false},null,Date.parse(item.at)),'unapproved'));
+test('yalnızca izinli aralıkta yayımlar',()=>assert.equal(decision(item,null,Date.parse(item.at)),'due'));
+test('kaçırılan yayını geceye taşımaz',()=>assert.equal(decision(item,null,Date.parse(item.until)+1),'expired'));
+test('yayımlanan tekrar yayımlanmaz',()=>assert.equal(decision(item,{status:'published'}),'published'));
+test('belirsiz dış etkiyi tekrar etmez',()=>assert.equal(decision(item,{status:'publishing'}),'review'));
+test('hazırlamada kesilen işlem inceleme ister',()=>assert.equal(decision(item,{status:'preparing'}),'review'));

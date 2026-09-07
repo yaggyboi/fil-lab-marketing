@@ -1,0 +1,38 @@
+name: Fil Lab onaylı haftalık yayınlar
+on:
+  schedule:
+    - cron: '7,22,37,52 9-14 8-13 9 *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Kontrol yalnızca bağlantıları sınar. Yayın sadece saati gelen onaylı içerikleri paylaşır.'
+        type: choice
+        options: [kontrol, yayin]
+        default: kontrol
+permissions:
+  contents: write
+concurrency:
+  group: fil-lab-2026-09-07-onayli-yayin
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Zaman ve tekrar paylaşım testleri
+        run: node --test automation/queue-core.test.mjs
+      - name: Onaylı yayın kuyruğu
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+          PUBLISH_MODE: ${{ github.event_name == 'schedule' && 'yayin' || inputs.mode }}
+        run: |
+          if [ "$PUBLISH_MODE" = "yayin" ]; then
+            node automation/publish-queue.mjs --publish
+          else
+            node automation/publish-queue.mjs
+          fi
